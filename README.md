@@ -20,4 +20,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/job-manishkumar/LeetCode/tree/master/0088-merge-sorted-array) |
+## String
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/job-manishkumar/LeetCode/tree/master/0014-longest-common-prefix) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/job-manishkumar/LeetCode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
