@@ -9,9 +9,9 @@ class Solution {
         int i = 0;
         int j = ch.length - 1;
         while (i < j) {
-            if (!(ch[i] == 'a' || ch[i] == 'e' || ch[i] == 'i' || ch[i] == 'o' || ch[i] == 'u' || ch[i] == 'A' || ch[i] == 'E' || ch[i] == 'I' || ch[i] == 'O' || ch[i] == 'U')) {
+            if (!isVowels(ch[i])) {
                 i++;
-            } else if (!(ch[j] == 'a' || ch[j] == 'e' || ch[j] == 'i' || ch[j] == 'o' || ch[j] == 'u' || ch[j] == 'A' || ch[j] == 'E' || ch[j] == 'I' || ch[j] == 'O' || ch[j] == 'U')) {
+            } else if (!isVowels(ch[j])) {
                 j--;
             } else {
                 char temp = ch[i];
@@ -22,5 +22,9 @@ class Solution {
             }
         }
         return new String(ch);
+    }
+
+    public boolean isVowels(char c) {
+        return "aeiouAEIOU".indexOf(c) != -1;
     }
 }
