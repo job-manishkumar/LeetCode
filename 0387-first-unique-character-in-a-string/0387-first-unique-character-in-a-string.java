@@ -4,15 +4,22 @@ class Solution {
     }
 
     public int findFirstUniqChar(String s) {
-        Map<Character,Integer> map = new LinkedHashMap<>();
-        for(char c:s.toCharArray()){
-            map.put(c,map.getOrDefault(c,0)+1);
+        int[] map = new int[26];
+        for(int i=0;i<s.length();i++){
+            int index = s.charAt(i) - 'a';
+            if(map[index]==0){
+                map[index] = 1;
+            }
+            else{
+                map[index] = map[index]+1;
+            }
         }
-        for(int i =0;i<s.length();i++){
-            if(map.get(s.charAt(i))==1){
+        for(int i=0;i<s.length();i++){
+            if(map[s.charAt(i)-'a'] == 1){
                 return i;
             }
         }
+        
         return -1;
     }
 }
