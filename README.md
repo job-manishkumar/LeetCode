@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0066-plus-one](https://github.com/job-manishkumar/LeetCode/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/job-manishkumar/LeetCode/tree/master/0067-add-binary) |
+| [0412-fizz-buzz](https://github.com/job-manishkumar/LeetCode/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/job-manishkumar/LeetCode/tree/master/0415-add-strings) |
 ## Sorting
 |  |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/job-manishkumar/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/job-manishkumar/LeetCode/tree/master/0389-find-the-difference) |
 | [0409-longest-palindrome](https://github.com/job-manishkumar/LeetCode/tree/master/0409-longest-palindrome) |
+| [0412-fizz-buzz](https://github.com/job-manishkumar/LeetCode/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/job-manishkumar/LeetCode/tree/master/0415-add-strings) |
 ## Trie
 |  |
@@ -66,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/job-manishkumar/LeetCode/tree/master/0067-add-binary) |
+| [0412-fizz-buzz](https://github.com/job-manishkumar/LeetCode/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/job-manishkumar/LeetCode/tree/master/0415-add-strings) |
 ## Hash Table
 |  |
