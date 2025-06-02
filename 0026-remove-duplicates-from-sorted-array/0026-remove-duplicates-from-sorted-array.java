@@ -1,19 +1,18 @@
 class Solution {
 
     public int removeDuplicates(int[] nums) {
-        return revmoveDuplicateElement(nums);
+        return removeDuplicateElements(nums);
     }
 
-    public int revmoveDuplicateElement(int[] arr) {
-        int i = 0;
-        int j = 1;
-        while (j < arr.length) {
-            if (arr[i] != arr[j]) {
-                i++;
-                arr[i] = arr[j];
+    public int removeDuplicateElements(int[] arr) {
+        int index = 0;
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] != arr[index]) {
+                index++;
+                arr[index] = arr[i];
             }
-            j++;
+            
         }
-        return i+1;
+        return index+1;
     }
 }
