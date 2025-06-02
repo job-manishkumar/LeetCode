@@ -1,40 +1,35 @@
 class Solution {
 
     public int maximumProduct(int[] nums) {
-        return maxProduct(nums);
+        return getMaximumProduct(nums);
     }
 
-    public int maxProduct(int[] arr) {
+    public int getMaximumProduct(int[] arr) {
+        int max = Integer.MIN_VALUE;
+        int secondeMax = Integer.MIN_VALUE;
+        int thirdMax = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
         int secondMin = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
-        int secondMax = Integer.MIN_VALUE;
-        int thirdMax = Integer.MIN_VALUE;
-
-        for (int i : arr) {
-            if (max < i) {
-                thirdMax = secondMax;
-                secondMax = max;
-                max = i;
+        for (int i = 0; i < arr.length; i++) {
+            if (max < arr[i]) {
+                thirdMax = secondeMax;
+                secondeMax = max;
+                max = arr[i];
+            } else if (secondeMax < arr[i]) {
+                thirdMax = secondeMax;
+                secondeMax = arr[i];
+            } else if (thirdMax < arr[i]) {
+                thirdMax = arr[i];
             }
-            else if (secondMax < i) {
-                thirdMax = secondMax;
-                secondMax = i;
-            }
-            else if(thirdMax< i){
-                thirdMax = i;
-            }
-            if (min > i) {
+            if (min > arr[i]) {
                 secondMin = min;
-                min = i;
-            } 
-            else if(secondMin > i){
-                    secondMin = i;
+                min = arr[i];
+            } else if (secondMin > arr[i]) {
+                secondMin = arr[i];
             }
         }
-
-        long getProdcutWithMin = min*secondMin*max;
-        long getProdcutWithMax = max*secondMax*thirdMax;
-        return (int)Math.max(getProdcutWithMin,getProdcutWithMax);
+        long productMax1 = min * secondMin * max;
+        long productMax2 = max * secondeMax * thirdMax;
+        return (int)Math.max(productMax1,productMax2);
     }
 }
