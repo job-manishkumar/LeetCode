@@ -1,19 +1,19 @@
 class Solution {
 
     public int[] plusOne(int[] digits) {
-        return addOne(digits);
+        return addPlusOne(digits);
     }
 
-    public int[] addOne(int[] digits) {
-        for (int i = digits.length - 1; i >= 0; i--) {
-            if (digits[i] != 9) {
-                digits[i] = digits[i] + 1;
-                return digits;
+    public int[] addPlusOne(int[] arr) {
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (arr[i] != 9) {
+                arr[i] += 1;
+                return arr;
             } else {
-                digits[i] = 0;
+                arr[i] = 0;
             }
         }
-        int[] ans = new int[digits.length + 1];
+        int[] ans = new int[arr.length + 1];
         ans[0] = 1;
         return ans;
     }
