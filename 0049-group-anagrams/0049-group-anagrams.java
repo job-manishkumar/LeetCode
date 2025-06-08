@@ -16,11 +16,6 @@ class Solution {
                 map.put(s,temp);
             }
         }
-
-        List<List<String>> list = new ArrayList<>();
-        for(Map.Entry<String,List<String>> entry: map.entrySet()){
-            list.add(entry.getValue());
-        }
-        return list; 
+        return new ArrayList<>(map.values()); 
     }
 }
