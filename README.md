@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/job-manishkumar/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0940-fruit-into-baskets](https://github.com/job-manishkumar/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/job-manishkumar/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/job-manishkumar/LeetCode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/job-manishkumar/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/job-manishkumar/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0409-longest-palindrome](https://github.com/job-manishkumar/LeetCode/tree/master/0409-longest-palindrome) |
 | [0412-fizz-buzz](https://github.com/job-manishkumar/LeetCode/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/job-manishkumar/LeetCode/tree/master/0415-add-strings) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 ## Trie
 |  |
 | ------- |
@@ -115,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/job-manishkumar/LeetCode/tree/master/0389-find-the-difference) |
 | [0409-longest-palindrome](https://github.com/job-manishkumar/LeetCode/tree/master/0409-longest-palindrome) |
 | [0940-fruit-into-baskets](https://github.com/job-manishkumar/LeetCode/tree/master/0940-fruit-into-baskets) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 ## Queue
 |  |
 | ------- |
@@ -125,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/job-manishkumar/LeetCode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/job-manishkumar/LeetCode/tree/master/0229-majority-element-ii) |
 | [0387-first-unique-character-in-a-string](https://github.com/job-manishkumar/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 ## Greedy
 |  |
 | ------- |
