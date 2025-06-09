@@ -1,22 +1,18 @@
 class Solution {
     public char findTheDifference(String s, String t) {
-        return findDifference(s,t);
-    }
-    public char findDifference(String s, String t) {
-        int[] map = new int[26];
-        for(int i=0;i<s.length();i++){
-           int  index = s.charAt(i) - 'a';
-           map[index] = map[index]+1;
-        }
-        char c = Character.MIN_VALUE;
+
+        int[] ch = new int[26];
         for(int i=0;i<t.length();i++){
-            if (map[t.charAt(i) - 'a'] == 0) {
-				c = t.charAt(i);
-                break;
-			} else {
-				map[t.charAt(i) - 'a']--;
-			}
+            ch[t.charAt(i)-'a']++;
         }
-        return c;
+        for(int i=0;i<s.length();i++){
+            ch[s.charAt(i)-'a']--;
+        }
+        for(int i=0;i<ch.length;i++){
+            if(ch[i] == 1){
+                return (char)(i+'a');
+            }
+        }
+        return '\0';
     }
 }
