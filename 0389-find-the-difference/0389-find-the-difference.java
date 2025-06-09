@@ -1,7 +1,7 @@
 class Solution {
 
     public char findTheDifference(String s, String t) {
-        return findDiff2(s, t);
+        return findDiff3(s, t);
     }
 
     public char findDiff(String s, String t) {
@@ -34,4 +34,16 @@ class Solution {
         }
         return (char)(sumT - sumS);
     }
+
+    public char findDiff3(String s,String t){
+        int ans = 0;
+        for(int i=0;i<s.length();i++){
+            ans = ans ^ s.charAt(i);
+        }
+        for(int i=0;i<t.length();i++){
+            ans = ans ^ t.charAt(i);
+        }
+        return (char)ans;
+    }
+
 }
