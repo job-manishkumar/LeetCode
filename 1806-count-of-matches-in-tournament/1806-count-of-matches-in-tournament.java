@@ -3,6 +3,7 @@ class Solution {
         return getMatches(n);
     }
 
+    //tc -> O(logn)
     public int getMatches(int n){
         int sum = 0;
         while(n>1){
