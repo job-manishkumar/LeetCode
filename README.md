@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0414-third-maximum-number](https://github.com/job-manishkumar/LeetCode/tree/master/0414-third-maximum-number) |
 | [0485-max-consecutive-ones](https://github.com/job-manishkumar/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0628-maximum-product-of-three-numbers](https://github.com/job-manishkumar/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0898-transpose-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/0898-transpose-matrix) |
 | [0940-fruit-into-baskets](https://github.com/job-manishkumar/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/job-manishkumar/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/job-manishkumar/LeetCode/tree/master/0067-add-binary) |
 | [0412-fizz-buzz](https://github.com/job-manishkumar/LeetCode/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/job-manishkumar/LeetCode/tree/master/0415-add-strings) |
+| [0898-transpose-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/0898-transpose-matrix) |
 | [1806-count-of-matches-in-tournament](https://github.com/job-manishkumar/LeetCode/tree/master/1806-count-of-matches-in-tournament) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/job-manishkumar/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Hash Table
@@ -179,4 +181,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1046-max-consecutive-ones-iii](https://github.com/job-manishkumar/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+## Matrix
+|  |
+| ------- |
+| [0898-transpose-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/0898-transpose-matrix) |
 <!---LeetCode Topics End-->
