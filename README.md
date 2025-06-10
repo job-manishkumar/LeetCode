@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/job-manishkumar/LeetCode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/job-manishkumar/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1547-destination-city](https://github.com/job-manishkumar/LeetCode/tree/master/1547-destination-city) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/job-manishkumar/LeetCode/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [1704-special-positions-in-a-binary-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/1704-special-positions-in-a-binary-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/job-manishkumar/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/job-manishkumar/LeetCode/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/job-manishkumar/LeetCode/tree/master/0415-add-strings) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
+| [1547-destination-city](https://github.com/job-manishkumar/LeetCode/tree/master/1547-destination-city) |
 | [2032-largest-odd-number-in-string](https://github.com/job-manishkumar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/job-manishkumar/LeetCode/tree/master/2346-largest-3-same-digit-number-in-string) |
 ## Trie
@@ -128,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0409-longest-palindrome](https://github.com/job-manishkumar/LeetCode/tree/master/0409-longest-palindrome) |
 | [0940-fruit-into-baskets](https://github.com/job-manishkumar/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
+| [1547-destination-city](https://github.com/job-manishkumar/LeetCode/tree/master/1547-destination-city) |
 ## Queue
 |  |
 | ------- |
