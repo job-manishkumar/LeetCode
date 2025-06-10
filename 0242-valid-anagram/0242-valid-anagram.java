@@ -1,28 +1,23 @@
 class Solution {
+
     public boolean isAnagram(String s, String t) {
-        return isStringAnagram(s,t);
+        return checkAnagram(s, t);
     }
-    public boolean isStringAnagram(String str1, String str2) {
-        if(str1 == null || str2 == null){
+
+    public boolean checkAnagram(String s, String t) {
+        if (s.length() != t.length()) {
             return false;
         }
-        if(str1.length()!=str2.length()){
-            return false;
+        int[] ch = new int[26];
+        for (int i = 0; i < s.length(); i++) {
+            ch[s.charAt(i) - 'a']++;
         }
-        Map<Character,Integer> map = new HashMap<>();
-        for(char ch:str1.toCharArray()){
-            map.put(ch,map.getOrDefault(ch,0)+1);
-        }
-        for(char ch:str2.toCharArray()){
-            if(!map.containsKey(ch)){
+        for (int i = 0; i < t.length(); i++) {
+            if (ch[t.charAt(i) - 'a'] == 0) {
                 return false;
             }
-            if(map.get(ch)==0){
-                return false;
-            }
-            map.put(ch,map.get(ch)-1);
+            ch[t.charAt(i) - 'a']--;
         }
         return true;
-        
     }
 }
