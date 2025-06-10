@@ -9,14 +9,14 @@ class Solution {
             return false;
         }
         int[] ch = new int[26];
-        for (int i = 0; i < s.length(); i++) {
-            ch[s.charAt(i) - 'a']++;
+        for (char c:s.toCharArray()) {
+            ch[c - 'a']++;
         }
-        for (int i = 0; i < t.length(); i++) {
-            if (ch[t.charAt(i) - 'a'] == 0) {
+        for (char c:t.toCharArray()) {
+            if (ch[c - 'a'] == 0) {
                 return false;
             }
-            ch[t.charAt(i) - 'a']--;
+            ch[c - 'a']--;
         }
         return true;
     }
