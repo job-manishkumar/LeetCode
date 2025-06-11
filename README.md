@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/job-manishkumar/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/job-manishkumar/LeetCode/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/job-manishkumar/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0048-rotate-image](https://github.com/job-manishkumar/LeetCode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/job-manishkumar/LeetCode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/job-manishkumar/LeetCode/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/job-manishkumar/LeetCode/tree/master/0066-plus-one) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/job-manishkumar/LeetCode/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/job-manishkumar/LeetCode/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/job-manishkumar/LeetCode/tree/master/0067-add-binary) |
 | [0189-rotate-array](https://github.com/job-manishkumar/LeetCode/tree/master/0189-rotate-array) |
@@ -208,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/job-manishkumar/LeetCode/tree/master/0048-rotate-image) |
 | [0898-transpose-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/0898-transpose-matrix) |
 | [1704-special-positions-in-a-binary-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/1704-special-positions-in-a-binary-matrix) |
 ## Heap (Priority Queue)
