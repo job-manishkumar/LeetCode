@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/job-manishkumar/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0898-transpose-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/0898-transpose-matrix) |
 | [0940-fruit-into-baskets](https://github.com/job-manishkumar/LeetCode/tree/master/0940-fruit-into-baskets) |
+| [1027-sum-of-even-numbers-after-queries](https://github.com/job-manishkumar/LeetCode/tree/master/1027-sum-of-even-numbers-after-queries) |
 | [1046-max-consecutive-ones-iii](https://github.com/job-manishkumar/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/job-manishkumar/LeetCode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/job-manishkumar/LeetCode/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/job-manishkumar/LeetCode/tree/master/0415-add-strings) |
 | [0898-transpose-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/0898-transpose-matrix) |
+| [1027-sum-of-even-numbers-after-queries](https://github.com/job-manishkumar/LeetCode/tree/master/1027-sum-of-even-numbers-after-queries) |
 | [1806-count-of-matches-in-tournament](https://github.com/job-manishkumar/LeetCode/tree/master/1806-count-of-matches-in-tournament) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/job-manishkumar/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Hash Table
