@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/job-manishkumar/LeetCode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/job-manishkumar/LeetCode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/job-manishkumar/LeetCode/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/0054-spiral-matrix) |
 | [0066-plus-one](https://github.com/job-manishkumar/LeetCode/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/job-manishkumar/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/job-manishkumar/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/job-manishkumar/LeetCode/tree/master/0067-add-binary) |
 | [0412-fizz-buzz](https://github.com/job-manishkumar/LeetCode/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/job-manishkumar/LeetCode/tree/master/0415-add-strings) |
@@ -215,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/job-manishkumar/LeetCode/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/0054-spiral-matrix) |
 | [0898-transpose-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/0898-transpose-matrix) |
 | [1253-sort-the-matrix-diagonally](https://github.com/job-manishkumar/LeetCode/tree/master/1253-sort-the-matrix-diagonally) |
 | [1704-special-positions-in-a-binary-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/1704-special-positions-in-a-binary-matrix) |
