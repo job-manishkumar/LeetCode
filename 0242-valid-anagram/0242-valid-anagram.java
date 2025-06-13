@@ -45,6 +45,7 @@ class Solution {
     }
 
     //approach 3 -- using char array
+    //tc -> O(n) and sc -> O(1)
     public boolean checkAnagram_3(String s, String t) {
         if (s.length() != t.length()) {
             return false;
