@@ -1,21 +1,21 @@
 class Solution {
 
     public String largestGoodInteger(String num) {
-        return getGoodInteger(num);
+        return getLargeIntegerr(num);
     }
 
-    public String getGoodInteger(String num) {
-        int maxChar = -1;
-        for (int i = 2; i < num.length(); i++) {
-            if (num.charAt(i) == num.charAt(i - 1) && num.charAt(i) == num.charAt(i - 2)) {
-                maxChar = Math.max(maxChar, num.charAt(i) - '0');
+    public String getLargeIntegerr(String str) {
+        int ans = -1;
+        char[] ch = str.toCharArray();
+        for (int i = 1; i < ch.length - 1; i++) {
+            if (ch[i] == ch[i - 1] && ch[i] == ch[i + 1]) {
+                ans = Math.max(ans, ch[i] - '0');
             }
         }
-
-        if(maxChar == -1){
-            return new String();
+        if(ans ==-1){
+            return "";
         }
-        String s = String.valueOf(maxChar)+maxChar+maxChar;
-        return s;
+        String maxString = ans + "" + ans + "" + ans;
+        return maxString;
     }
 }
