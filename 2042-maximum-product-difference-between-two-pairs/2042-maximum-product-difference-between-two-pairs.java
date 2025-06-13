@@ -1,15 +1,16 @@
 class Solution {
 
     public int maxProductDifference(int[] nums) {
-        return getMaxProdDiff(nums);
+        return getMaxProduct(nums);
     }
 
-    public int getMaxProdDiff(int[] arr) {
+    //approach 1 -using max,secondmax,min,secondmin
+    //tc -> O(n) and sc ->O(1)
+    public int getMaxProduct(int[] arr) {
         int max = Integer.MIN_VALUE;
         int secondMax = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
         int secondMin = Integer.MAX_VALUE;
-
         for (int i : arr) {
             if (max < i) {
                 secondMax = max;
@@ -27,6 +28,7 @@ class Solution {
 
         int prod1 = max * secondMax;
         int prod2 = min * secondMin;
+
         return prod1 - prod2;
     }
 }
