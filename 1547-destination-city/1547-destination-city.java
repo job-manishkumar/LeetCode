@@ -1,21 +1,19 @@
 class Solution {
+
     public String destCity(List<List<String>> paths) {
         return getDestinationCity(paths);
     }
 
-    public String getDestinationCity(List<List<String>> path){
-        Set<String> set = new HashSet<>();
-        for(int i=0;i<path.size();i++){//O(n)
-            String source = path.get(i).get(0);
-            set.add(source);
+    public String getDestinationCity(List<List<String>> paths) {
+        Set<String> source = new HashSet<>();
+        for (int i = 0; i < paths.size(); i++) {
+            source.add(paths.get(i).get(0));
         }
-        for(int i=0;i<path.size();i++){//O(n)
-            String destination = path.get(i).get(1);
-            if(!set.contains(destination)){
-                return destination;
+        for (int i = 0; i < paths.size(); i++) {
+            if (!source.contains(paths.get(i).get(1))) {
+                return paths.get(i).get(1);
             }
         }
         return "";
-
     }
 }
