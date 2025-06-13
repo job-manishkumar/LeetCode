@@ -1,31 +1,33 @@
 class Solution {
 
     public int countCharacters(String[] words, String chars) {
-        return countChar(words, chars);
+        return countLength(words, chars);
     }
 
-    public int countChar(String[] words, String chars) {
-        int count = 0;
-        int[] ch = new int[26];
-        for (int i = 0; i < chars.length(); i++) {
-            ch[chars.charAt(i) - 'a']++;
+    public int countLength(String[] words, String chars) {
+        int totalLength = 0;
+        int[] ch1 = new int[26];
+        for (char c : chars.toCharArray()) {
+            ch1[c - 'a']++;
         }
-        for (String s : words) {
+        for (String word : words) {
             int[] ch2 = new int[26];
-            boolean isPresent = true;
-            for (int i = 0; i < s.length(); i++) {
-                ch2[s.charAt(i) - 'a']++;
+            for (char c2 : word.toCharArray()) {
+                ch2[c2 - 'a']++;
             }
-            for (int i = 0; i < ch2.length; i++) {
-                if (ch2[i] > ch[i]) {
-                    isPresent = false;
-                    break;
-                }
+            if (isPresent(ch1, ch2)) {
+                totalLength += word.length();
             }
-           if(isPresent){
-            count = count+s.length();
-           }
         }
-        return count;
+        return totalLength;
+    }
+
+    public boolean isPresent(int[] ch1, int[] ch2) {
+        for (int i = 0; i < ch1.length; i++) {
+            if (ch2[i] > ch1[i]) {
+                return false;
+            }
+        }
+        return true;
     }
 }
