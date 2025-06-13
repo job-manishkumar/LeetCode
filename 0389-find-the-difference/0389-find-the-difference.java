@@ -1,7 +1,7 @@
 class Solution {
 
     public char findTheDifference(String s, String t) {
-        return findDiff_2(s, t);
+        return findDiff_3(s, t);
     }
 
     //approach 1 using hashmap
@@ -37,5 +37,16 @@ class Solution {
             ch[c2 - 'a']--;
         }
         return '\0';
+    }
+
+    //approach 3 -- using xor
+    //tc -> O(n) and sc -> O(1)
+    public char findDiff_3(String s, String t) {
+        int ans = 0;
+        String str = s + t;
+        for (char ch : str.toCharArray()) {
+            ans = ans ^ ch;
+        }
+        return (char) ans;
     }
 }
