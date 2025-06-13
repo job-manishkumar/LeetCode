@@ -1,49 +1,41 @@
 class Solution {
 
     public char findTheDifference(String s, String t) {
-        return findDiff3(s, t);
+        return findDiff_2(s, t);
     }
 
+    //approach 1 using hashmap
+    //tc -> O(n) and sc -> O(n)
     public char findDiff(String s, String t) {
-        //apporach tc -> O(n) and sc -> O(1)
-        int[] ch = new int[26];
-        for (int i = 0; i < t.length(); i++) {
-            ch[t.charAt(i) - 'a']++;
+        Map<Character, Integer> map = new HashMap<>();
+        for (char ch : s.toCharArray()) {
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
-        for (int i = 0; i < s.length(); i++) {
-            ch[s.charAt(i) - 'a']--;
-        }
-        for (int i = 0; i < ch.length; i++) {
-            if (ch[i] == 1) {
-                return (char) (i + 'a');
+        for (char ch : t.toCharArray()) {
+            if (!map.containsKey(ch)) {
+                return ch;
             }
+            if (map.get(ch) == 0) {
+                return ch;
+            }
+            map.put(ch, map.get(ch) - 1);
         }
         return '\0';
     }
 
-    public char findDiff2(String s, String t) {
-        //apporach tc -> O(n) and sc -> O(1)
+    //approach 2 using array
+    //tc -> O(n) and sc -> O(1)
+    public char findDiff_2(String s, String t) {
         int[] ch = new int[26];
-        int sumS = 0;
-        int sumT = 0;
-        for (int i = 0; i < s.length(); i++) {
-            sumS = sumS + s.charAt(i);
+        for (char c1 : s.toCharArray()) {
+            ch[c1 - 'a']++;
         }
-        for (int i = 0; i < t.length(); i++) {
-            sumT = sumT + t.charAt(i);
+        for (char c2 : t.toCharArray()) {
+            if (ch[c2 - 'a'] == 0) {
+                return c2;
+            }
+            ch[c2 - 'a']--;
         }
-        return (char)(sumT - sumS);
+        return '\0';
     }
-
-    public char findDiff3(String s,String t){
-        int ans = 0;
-        for(int i=0;i<s.length();i++){
-            ans = ans ^ s.charAt(i);
-        }
-        for(int i=0;i<t.length();i++){
-            ans = ans ^ t.charAt(i);
-        }
-        return (char)ans;
-    }
-
 }
