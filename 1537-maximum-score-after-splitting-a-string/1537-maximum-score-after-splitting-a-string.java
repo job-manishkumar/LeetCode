@@ -1,10 +1,11 @@
 class Solution {
 
     public int maxScore(String s) {
-        return getMaxScore(s);
+        return getMaxScore_2(s);
     }
 
     //approach 1 - using prefix and suffix sum
+    //tc -> O(n) and sc -> O(n)
     public int getMaxScore(String s) {
         int count = 0;
         int maxCount = Integer.MIN_VALUE;
@@ -37,9 +38,32 @@ class Solution {
         }
         System.out.println(Arrays.toString(sf));
         for (int i = 1; i < ch.length; i++) {
-            count = pf[i-1] + sf[i];
+            count = pf[i - 1] + sf[i];
             maxCount = Math.max(maxCount, count);
         }
         return maxCount;
+    }
+
+    //approach 2
+    public int getMaxScore_2(String s) {
+        int totalOne = 0;
+        for (char c : s.toCharArray()) {
+            if (c - '0' == 1) {
+                totalOne++;
+            }
+        }
+        char[] ch = s.toCharArray();
+        int countZero = 0;
+        int total = 0;
+        int max = 0;
+        for (int i = 0; i < ch.length-1; i++) {
+            if (ch[i] - '0' == 0) {
+                countZero++;
+            } else {
+                totalOne--;
+            }
+            max = Math.max(max,countZero+totalOne);
+        }
+        return max;
     }
 }
