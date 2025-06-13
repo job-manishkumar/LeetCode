@@ -5,18 +5,17 @@ class Solution {
     }
 
     public boolean checkAnagram(String s, String t) {
-        if (s.length() != t.length()) {
+        if(s.length()!=t.length()){
             return false;
         }
-        int[] ch = new int[26];
-        for (char c:s.toCharArray()) {
-            ch[c - 'a']++;
-        }
-        for (char c:t.toCharArray()) {
-            if (ch[c - 'a'] == 0) {
+        char[] ch1 = s.toCharArray();
+        char[] ch2 = t.toCharArray();
+        Arrays.sort(ch1);
+        Arrays.sort(ch2);
+        for (int i = 0; i < ch1.length; i++) {
+            if (ch1[i] != ch2[i]) {
                 return false;
             }
-            ch[c - 'a']--;
         }
         return true;
     }
