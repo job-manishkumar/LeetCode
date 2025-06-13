@@ -1,21 +1,16 @@
 class Solution {
-    public int[][] transpose(int[][] matrix) {
-       return getTranspose(matrix);
 
+    public int[][] transpose(int[][] matrix) {
+        return getTranspose(matrix);
     }
 
-    public int[][] getTranspose(int[][] mat){
-
-        int n = mat.length;
-        int m = mat[0].length;
-
-        int[][] ans = new int[m][n];
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
+    public int[][] getTranspose(int[][] mat) {
+        int[][] ans = new int[mat[0].length][mat.length];
+        for (int i = 0; i < mat.length; i++) {
+            for (int j = 0; j < mat[0].length; j++) {
                 ans[j][i] = mat[i][j];
             }
         }
         return ans;
-
     }
 }
