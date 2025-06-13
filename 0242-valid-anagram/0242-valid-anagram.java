@@ -1,11 +1,13 @@
 class Solution {
 
     public boolean isAnagram(String s, String t) {
-        return checkAnagram(s, t);
+        return checkAnagram_2(s, t);
     }
 
+    //approach 1 - sorting
+    //tc -> O(nlogn) and sc ->O(1)
     public boolean checkAnagram(String s, String t) {
-        if(s.length()!=t.length()){
+        if (s.length() != t.length()) {
             return false;
         }
         char[] ch1 = s.toCharArray();
@@ -16,6 +18,28 @@ class Solution {
             if (ch1[i] != ch2[i]) {
                 return false;
             }
+        }
+        return true;
+    }
+
+    //approach 2 - using hashmap
+    //tc ->O(n) and sc -> O(n)
+    public boolean checkAnagram_2(String s, String t) {
+        if (s.length() != t.length()) {
+            return false;
+        }
+        Map<Character, Integer> map = new HashMap<>();
+        for (char ch : s.toCharArray()) {
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
+        }
+        for (char ch : t.toCharArray()) {
+            if (!map.containsKey(ch)) {
+                return false;
+            }
+            if (map.get(ch) == 0) {
+                return false;
+            }
+            map.put(ch, map.get(ch) - 1);
         }
         return true;
     }
