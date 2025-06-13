@@ -1,7 +1,7 @@
 class Solution {
 
     public int maxProduct(int[] nums) {
-        return getProduct_2(nums);
+        return getProduct_3(nums);
     }
 
     //appraoch 1
