@@ -1,7 +1,7 @@
 class Solution {
 
     public boolean isAnagram(String s, String t) {
-        return checkAnagram_2(s, t);
+        return checkAnagram_3(s, t);
     }
 
     //approach 1 - sorting
@@ -40,6 +40,24 @@ class Solution {
                 return false;
             }
             map.put(ch, map.get(ch) - 1);
+        }
+        return true;
+    }
+
+    //approach 3 -- using char array
+    public boolean checkAnagram_3(String s, String t) {
+        if (s.length() != t.length()) {
+            return false;
+        }
+        int[] ch = new int[26];
+        for (char c : s.toCharArray()) {
+            ch[c - 'a']++;
+        }
+        for (char c : t.toCharArray()) {
+            if (ch[c - 'a'] == 0) {
+                return false;
+            }
+            ch[c - 'a']--;
         }
         return true;
     }
