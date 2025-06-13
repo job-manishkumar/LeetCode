@@ -4,18 +4,18 @@ class Solution {
         return getLargeIntegerr(num);
     }
 
+    //tc -> O(N) and sc -> O(1)
     public String getLargeIntegerr(String str) {
-        int ans = -1;
+        char ans = '\0';
         char[] ch = str.toCharArray();
         for (int i = 1; i < ch.length - 1; i++) {
             if (ch[i] == ch[i - 1] && ch[i] == ch[i + 1]) {
-                ans = Math.max(ans, ch[i] - '0');
+                ans = (char)Math.max(ans, ch[i]);
             }
         }
-        if(ans ==-1){
+        if(ans == '\0'){
             return "";
         }
-        String maxString = ans + "" + ans + "" + ans;
-        return maxString;
+        return new String(new char[]{ans,ans,ans});
     }
 }
