@@ -1,7 +1,7 @@
 class Solution {
 
     public int maxProductDifference(int[] nums) {
-        return getMaxProduct(nums);
+        return getMaxProduct_2(nums);
     }
 
     //approach 1 -using max,secondmax,min,secondmin
@@ -28,6 +28,23 @@ class Solution {
 
         int prod1 = max * secondMax;
         int prod2 = min * secondMin;
+
+        return prod1 - prod2;
+    }
+
+    //approach 2 - using priorityqueue
+    public int getMaxProduct_2(int[] arr) {
+        PriorityQueue<Integer> pq1 = new PriorityQueue<>();
+        for (int i : arr) {
+            pq1.add(i);
+        }
+        int prod2 = pq1.poll() * pq1.poll();
+
+        PriorityQueue<Integer> pq2 = new PriorityQueue<>(Collections.reverseOrder());
+        for (int i : arr) {
+            pq2.add(i);
+        }
+        int prod1 = pq2.poll() * pq2.poll();
 
         return prod1 - prod2;
     }
