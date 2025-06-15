@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/job-manishkumar/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/job-manishkumar/LeetCode/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/job-manishkumar/LeetCode/tree/master/0414-third-maximum-number) |
+| [0455-assign-cookies](https://github.com/job-manishkumar/LeetCode/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/job-manishkumar/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0628-maximum-product-of-three-numbers](https://github.com/job-manishkumar/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0898-transpose-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/0898-transpose-matrix) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/job-manishkumar/LeetCode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/job-manishkumar/LeetCode/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/job-manishkumar/LeetCode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0455-assign-cookies](https://github.com/job-manishkumar/LeetCode/tree/master/0455-assign-cookies) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/job-manishkumar/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Math
 |  |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/job-manishkumar/LeetCode/tree/master/0242-valid-anagram) |
 | [0389-find-the-difference](https://github.com/job-manishkumar/LeetCode/tree/master/0389-find-the-difference) |
 | [0414-third-maximum-number](https://github.com/job-manishkumar/LeetCode/tree/master/0414-third-maximum-number) |
+| [0455-assign-cookies](https://github.com/job-manishkumar/LeetCode/tree/master/0455-assign-cookies) |
 | [0628-maximum-product-of-three-numbers](https://github.com/job-manishkumar/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1253-sort-the-matrix-diagonally](https://github.com/job-manishkumar/LeetCode/tree/master/1253-sort-the-matrix-diagonally) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/job-manishkumar/LeetCode/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
@@ -182,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0409-longest-palindrome](https://github.com/job-manishkumar/LeetCode/tree/master/0409-longest-palindrome) |
+| [0455-assign-cookies](https://github.com/job-manishkumar/LeetCode/tree/master/0455-assign-cookies) |
 | [2032-largest-odd-number-in-string](https://github.com/job-manishkumar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2756-buy-two-chocolates](https://github.com/job-manishkumar/LeetCode/tree/master/2756-buy-two-chocolates) |
 ## Tree
