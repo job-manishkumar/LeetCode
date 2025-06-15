@@ -1,20 +1,21 @@
 class Solution {
+
     public int firstUniqChar(String s) {
-        return findFirstUniqChar(s);
+        return getFirstUniqChar(s);
     }
 
-    public int findFirstUniqChar(String s) {
-        int[] map = new int[26];
-        for(int i=0;i<s.length();i++){
-            int index = s.charAt(i) - 'a';
-            map[index] = map[index]+1;
+    //approach 1 - using map
+    public int getFirstUniqChar(String s) {
+        Map<Character, Integer> map = new HashMap<>();
+        for (char c : s.toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
         }
-        for(int i=0;i<s.length();i++){
-            if(map[s.charAt(i)-'a'] == 1){
+
+        for (int i = 0; i < s.length(); i++) {
+            if (map.get(s.charAt(i)) == 1) {
                 return i;
             }
         }
-        
         return -1;
     }
 }
