@@ -1,9 +1,11 @@
 class Solution {
 
     public int countStudents(int[] students, int[] sandwiches) {
-        return countUnEatStudent(students, sandwiches);
+        return countUnEatStudent_2(students, sandwiches);
     }
 
+    //approach 1
+    //tc -> O(n2) and sc -> O(1)
     public int countUnEatStudent(int[] students, int[] sandwiches) {
         int front = 0;
         int rear = students.length - 1;
@@ -29,5 +31,21 @@ class Solution {
             arr[i] = arr[i + 1];
         }
         arr[ei] = temp;
+    }
+
+    //approach 2
+    public int countUnEatStudent_2(int[] students, int[] sandwiches) {
+        int[] std = new int[2];
+        for (int i : students) {
+            std[i]++;
+        }
+
+        for (int i=0;i<sandwiches.length;i++) {
+            if (std[sandwiches[i]] == 0) {
+                return sandwiches.length - i;
+            }
+            std[sandwiches[i]]--;
+        }
+        return 0;
     }
 }
