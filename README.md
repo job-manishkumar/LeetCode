@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2271-rearrange-array-elements-by-sign](https://github.com/job-manishkumar/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2756-buy-two-chocolates](https://github.com/job-manishkumar/LeetCode/tree/master/2756-buy-two-chocolates) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/job-manishkumar/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/job-manishkumar/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/job-manishkumar/LeetCode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 ## Two Pointers
 |  |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1619-path-crossing](https://github.com/job-manishkumar/LeetCode/tree/master/1619-path-crossing) |
 | [1746-largest-substring-between-two-equal-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1746-largest-substring-between-two-equal-characters) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/job-manishkumar/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/job-manishkumar/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Queue
 |  |
 | ------- |
@@ -191,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/job-manishkumar/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/job-manishkumar/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/job-manishkumar/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Greedy
 |  |
 | ------- |
