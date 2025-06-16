@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1537-maximum-score-after-splitting-a-string](https://github.com/job-manishkumar/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1547-destination-city](https://github.com/job-manishkumar/LeetCode/tree/master/1547-destination-city) |
 | [1619-path-crossing](https://github.com/job-manishkumar/LeetCode/tree/master/1619-path-crossing) |
+| [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/job-manishkumar/LeetCode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1746-largest-substring-between-two-equal-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1746-largest-substring-between-two-equal-characters) |
 | [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/job-manishkumar/LeetCode/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/job-manishkumar/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/job-manishkumar/LeetCode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/job-manishkumar/LeetCode/tree/master/0042-trapping-rain-water) |
+| [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/job-manishkumar/LeetCode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 ## String Matching
 |  |
 | ------- |
