@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/job-manishkumar/LeetCode/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/job-manishkumar/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/job-manishkumar/LeetCode/tree/master/0283-move-zeroes) |
+| [0349-intersection-of-two-arrays](https://github.com/job-manishkumar/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0414-third-maximum-number](https://github.com/job-manishkumar/LeetCode/tree/master/0414-third-maximum-number) |
 | [0455-assign-cookies](https://github.com/job-manishkumar/LeetCode/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/job-manishkumar/LeetCode/tree/master/0485-max-consecutive-ones) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/job-manishkumar/LeetCode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/job-manishkumar/LeetCode/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/job-manishkumar/LeetCode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0349-intersection-of-two-arrays](https://github.com/job-manishkumar/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/job-manishkumar/LeetCode/tree/master/0455-assign-cookies) |
 | [1019-squares-of-a-sorted-array](https://github.com/job-manishkumar/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/job-manishkumar/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/job-manishkumar/LeetCode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/job-manishkumar/LeetCode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/job-manishkumar/LeetCode/tree/master/0242-valid-anagram) |
+| [0349-intersection-of-two-arrays](https://github.com/job-manishkumar/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0389-find-the-difference](https://github.com/job-manishkumar/LeetCode/tree/master/0389-find-the-difference) |
 | [0414-third-maximum-number](https://github.com/job-manishkumar/LeetCode/tree/master/0414-third-maximum-number) |
 | [0455-assign-cookies](https://github.com/job-manishkumar/LeetCode/tree/master/0455-assign-cookies) |
@@ -173,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/job-manishkumar/LeetCode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/job-manishkumar/LeetCode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/job-manishkumar/LeetCode/tree/master/0290-word-pattern) |
+| [0349-intersection-of-two-arrays](https://github.com/job-manishkumar/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0387-first-unique-character-in-a-string](https://github.com/job-manishkumar/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/job-manishkumar/LeetCode/tree/master/0389-find-the-difference) |
 | [0409-longest-palindrome](https://github.com/job-manishkumar/LeetCode/tree/master/0409-longest-palindrome) |
@@ -250,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/job-manishkumar/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0349-intersection-of-two-arrays](https://github.com/job-manishkumar/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [1046-max-consecutive-ones-iii](https://github.com/job-manishkumar/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1321-get-equal-substrings-within-budget](https://github.com/job-manishkumar/LeetCode/tree/master/1321-get-equal-substrings-within-budget) |
 | [2634-minimum-common-value](https://github.com/job-manishkumar/LeetCode/tree/master/2634-minimum-common-value) |
