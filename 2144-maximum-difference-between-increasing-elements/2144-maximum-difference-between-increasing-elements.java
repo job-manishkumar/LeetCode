@@ -13,9 +13,6 @@ class Solution {
                 maxDiff = Math.max(maxDiff, arr[i] - min);
             }
         }
-        if (maxDiff < 0) {
-            return -1;
-        }
         return maxDiff;
     }
 }
