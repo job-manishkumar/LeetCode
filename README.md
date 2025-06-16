@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/job-manishkumar/LeetCode/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [1704-special-positions-in-a-binary-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/1704-special-positions-in-a-binary-matrix) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/job-manishkumar/LeetCode/tree/master/2042-maximum-product-difference-between-two-pairs) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/job-manishkumar/LeetCode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/job-manishkumar/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2756-buy-two-chocolates](https://github.com/job-manishkumar/LeetCode/tree/master/2756-buy-two-chocolates) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/job-manishkumar/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
