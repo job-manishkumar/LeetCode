@@ -223,14 +223,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/job-manishkumar/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
+| [0404-sum-of-left-leaves](https://github.com/job-manishkumar/LeetCode/tree/master/0404-sum-of-left-leaves) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/job-manishkumar/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
+| [0404-sum-of-left-leaves](https://github.com/job-manishkumar/LeetCode/tree/master/0404-sum-of-left-leaves) |
 ## Binary Tree
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/job-manishkumar/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
+| [0404-sum-of-left-leaves](https://github.com/job-manishkumar/LeetCode/tree/master/0404-sum-of-left-leaves) |
 ## Sliding Window
 |  |
 | ------- |
@@ -287,4 +290,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/job-manishkumar/LeetCode/tree/master/0231-power-of-two) |
+## Depth-First Search
+|  |
+| ------- |
+| [0404-sum-of-left-leaves](https://github.com/job-manishkumar/LeetCode/tree/master/0404-sum-of-left-leaves) |
 <!---LeetCode Topics End-->
