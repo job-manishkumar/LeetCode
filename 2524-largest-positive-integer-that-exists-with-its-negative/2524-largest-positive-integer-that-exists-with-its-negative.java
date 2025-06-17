@@ -11,9 +11,9 @@ class Solution {
         int i = 0;
         int j = arr.length - 1;
         while (i < j && arr[i] < 0 && arr[j] > 0) {
-            if (Math.abs(arr[i]) == arr[j]) {
+            if (arr[i]*-1 == arr[j]) {
                 return arr[j];
-            } else if (Math.abs(arr[i]) < arr[j]) {
+            } else if (arr[i]*-1 < arr[j]) {
                 j--;
             } else {
                 i++;
