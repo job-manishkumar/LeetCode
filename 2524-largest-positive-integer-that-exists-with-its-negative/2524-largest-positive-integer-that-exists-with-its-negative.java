@@ -1,7 +1,7 @@
 class Solution {
 
     public int findMaxK(int[] nums) {
-        return findMax(nums);
+        return findMax_2(nums);
     }
 
     //approach 1 -using sorting and two pointer
@@ -20,5 +20,19 @@ class Solution {
             }
         }
         return -1;
+    }
+
+    //approach 1 -using sorting and two pointer
+    //tc -> O(n) and sc -> O(n)
+    public int findMax_2(int[] arr) {
+        int max = -1;
+        Set<Integer> set = new HashSet<>();
+        for(int i:arr){
+            if(set.contains(i*-1)){
+              max =   Math.max(max,Math.abs(i));
+            }
+            set.add(i);
+        }
+        return max;
     }
 }
