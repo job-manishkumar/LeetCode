@@ -231,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/job-manishkumar/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0404-sum-of-left-leaves](https://github.com/job-manishkumar/LeetCode/tree/master/0404-sum-of-left-leaves) |
+| [2416-evaluate-boolean-binary-tree](https://github.com/job-manishkumar/LeetCode/tree/master/2416-evaluate-boolean-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -241,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/job-manishkumar/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0404-sum-of-left-leaves](https://github.com/job-manishkumar/LeetCode/tree/master/0404-sum-of-left-leaves) |
+| [2416-evaluate-boolean-binary-tree](https://github.com/job-manishkumar/LeetCode/tree/master/2416-evaluate-boolean-binary-tree) |
 ## Sliding Window
 |  |
 | ------- |
@@ -301,4 +303,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0404-sum-of-left-leaves](https://github.com/job-manishkumar/LeetCode/tree/master/0404-sum-of-left-leaves) |
+| [2416-evaluate-boolean-binary-tree](https://github.com/job-manishkumar/LeetCode/tree/master/2416-evaluate-boolean-binary-tree) |
 <!---LeetCode Topics End-->
