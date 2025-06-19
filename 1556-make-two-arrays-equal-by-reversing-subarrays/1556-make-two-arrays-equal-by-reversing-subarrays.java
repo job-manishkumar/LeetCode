@@ -1,7 +1,7 @@
 class Solution {
 
     public boolean canBeEqual(int[] target, int[] arr) {
-        return isEqual_2(target, arr);
+        return isEqual_3(target, arr);
     }
 
     //approach 1
@@ -18,7 +18,7 @@ class Solution {
     }
 
     //approach 2 --using map
-    //tc -> O(nlogn) and sc ->O(1)
+    //tc -> O(n) and sc ->O(n)
     public boolean isEqual_2(int[] target, int[] arr) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i : target) {
@@ -35,4 +35,21 @@ class Solution {
         }
         return true;
     }
+
+    //apporach 3 -using array
+    //tc -> O(n) and sc ->O(n)
+    public boolean isEqual_3(int[] target, int[] arr) {
+        int[] ch = new int[1001];
+        for(int i:target){
+            ch[i]++;
+        }
+        for(int i:arr){
+            if(ch[i]==0){
+                return false;
+            }
+            ch[i]--;
+        }
+        return true;
+    }
+
 }
