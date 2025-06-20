@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/job-manishkumar/LeetCode/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/job-manishkumar/LeetCode/tree/master/0415-add-strings) |
 | [0628-maximum-product-of-three-numbers](https://github.com/job-manishkumar/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
+| [1236-n-th-tribonacci-number](https://github.com/job-manishkumar/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 | [1806-count-of-matches-in-tournament](https://github.com/job-manishkumar/LeetCode/tree/master/1806-count-of-matches-in-tournament) |
 | [2032-largest-odd-number-in-string](https://github.com/job-manishkumar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [3055-maximum-odd-binary-number](https://github.com/job-manishkumar/LeetCode/tree/master/3055-maximum-odd-binary-number) |
@@ -280,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/job-manishkumar/LeetCode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/job-manishkumar/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/job-manishkumar/LeetCode/tree/master/0152-maximum-product-subarray) |
+| [1236-n-th-tribonacci-number](https://github.com/job-manishkumar/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -329,4 +331,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0404-sum-of-left-leaves](https://github.com/job-manishkumar/LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/job-manishkumar/LeetCode/tree/master/2416-evaluate-boolean-binary-tree) |
+## Memoization
+|  |
+| ------- |
+| [1236-n-th-tribonacci-number](https://github.com/job-manishkumar/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 <!---LeetCode Topics End-->
