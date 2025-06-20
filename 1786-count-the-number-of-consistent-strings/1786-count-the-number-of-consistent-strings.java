@@ -1,7 +1,7 @@
 class Solution {
 
     public int countConsistentStrings(String allowed, String[] words) {
-        return countStrings_2(allowed, words);
+        return countStrings_3(allowed, words);
     }
 
     //approach 1
@@ -35,12 +35,34 @@ class Solution {
     }
 
     //approach 2
+    //tc -> (k* n* m) and sc - > O(1)
     public int countStrings_2(String allowed, String[] words) {
         int count = 0;
         for (String word : words) {
             boolean isConsist = true;
             for (char c : word.toCharArray()) {
                 if (allowed.indexOf(c) == -1) {
+                    isConsist = false;
+                }
+            }
+            if (isConsist) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    //approach 3 using map
+    public int countStrings_3(String allowed, String[] words) {
+        int count = 0;
+        Set<Character> set = new HashSet<>();
+        for (char c : allowed.toCharArray()) {
+            set.add(c);
+        }
+        for (String word : words) {
+            boolean isConsist = true;
+            for (char c : word.toCharArray()) {
+                if (!set.contains(c)) {
                     isConsist = false;
                 }
             }
