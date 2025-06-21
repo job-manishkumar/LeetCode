@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/job-manishkumar/LeetCode/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/job-manishkumar/LeetCode/tree/master/0415-add-strings) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
+| [1302-delete-characters-to-make-fancy-string](https://github.com/job-manishkumar/LeetCode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1321-get-equal-substrings-within-budget](https://github.com/job-manishkumar/LeetCode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/job-manishkumar/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1547-destination-city](https://github.com/job-manishkumar/LeetCode/tree/master/1547-destination-city) |
