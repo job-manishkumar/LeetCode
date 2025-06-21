@@ -1,7 +1,7 @@
 class Solution {
 
     public String makeFancyString(String s) {
-        return getFancyString_2(s);
+        return getFancyString(s);
     }
 
     //approach 1
@@ -28,6 +28,7 @@ class Solution {
     }
 
     //approach 2 -using stack
+    //tc -> O(n) and sc -> O(n)
     public String getFancyString_2(String s) {
         if (s.length() < 3) {
             return s;
