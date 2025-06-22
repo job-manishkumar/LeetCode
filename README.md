@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2756-buy-two-chocolates](https://github.com/job-manishkumar/LeetCode/tree/master/2756-buy-two-chocolates) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/job-manishkumar/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/job-manishkumar/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/job-manishkumar/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/job-manishkumar/LeetCode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 ## Two Pointers
 |  |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1806-count-of-matches-in-tournament](https://github.com/job-manishkumar/LeetCode/tree/master/1806-count-of-matches-in-tournament) |
 | [2032-largest-odd-number-in-string](https://github.com/job-manishkumar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [3055-maximum-odd-binary-number](https://github.com/job-manishkumar/LeetCode/tree/master/3055-maximum-odd-binary-number) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/job-manishkumar/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Sorting
 |  |
 | ------- |
@@ -200,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2271-rearrange-array-elements-by-sign](https://github.com/job-manishkumar/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/job-manishkumar/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/job-manishkumar/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/job-manishkumar/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -322,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/job-manishkumar/LeetCode/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/job-manishkumar/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/job-manishkumar/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Monotonic Stack
 |  |
 | ------- |
