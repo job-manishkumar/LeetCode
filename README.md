@@ -168,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/job-manishkumar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2128-reverse-prefix-of-word](https://github.com/job-manishkumar/LeetCode/tree/master/2128-reverse-prefix-of-word) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/job-manishkumar/LeetCode/tree/master/2346-largest-3-same-digit-number-in-string) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/job-manishkumar/LeetCode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/job-manishkumar/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3055-maximum-odd-binary-number](https://github.com/job-manishkumar/LeetCode/tree/master/3055-maximum-odd-binary-number) |
 ## Trie
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/job-manishkumar/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1321-get-equal-substrings-within-budget](https://github.com/job-manishkumar/LeetCode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/job-manishkumar/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/job-manishkumar/LeetCode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Dynamic Programming
 |  |
 | ------- |
