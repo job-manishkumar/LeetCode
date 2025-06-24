@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2692-take-gifts-from-the-richest-pile](https://github.com/job-manishkumar/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/job-manishkumar/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2756-buy-two-chocolates](https://github.com/job-manishkumar/LeetCode/tree/master/2756-buy-two-chocolates) |
+| [3227-find-missing-and-repeated-values](https://github.com/job-manishkumar/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/job-manishkumar/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/job-manishkumar/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/job-manishkumar/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1806-count-of-matches-in-tournament](https://github.com/job-manishkumar/LeetCode/tree/master/1806-count-of-matches-in-tournament) |
 | [2032-largest-odd-number-in-string](https://github.com/job-manishkumar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [3055-maximum-odd-binary-number](https://github.com/job-manishkumar/LeetCode/tree/master/3055-maximum-odd-binary-number) |
+| [3227-find-missing-and-repeated-values](https://github.com/job-manishkumar/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/job-manishkumar/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Sorting
 |  |
@@ -237,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2524-largest-positive-integer-that-exists-with-its-negative](https://github.com/job-manishkumar/LeetCode/tree/master/2524-largest-positive-integer-that-exists-with-its-negative) |
 | [2634-minimum-common-value](https://github.com/job-manishkumar/LeetCode/tree/master/2634-minimum-common-value) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/job-manishkumar/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [3227-find-missing-and-repeated-values](https://github.com/job-manishkumar/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/job-manishkumar/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Queue
 |  |
@@ -328,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1496-lucky-numbers-in-a-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1704-special-positions-in-a-binary-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/1704-special-positions-in-a-binary-matrix) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/job-manishkumar/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
+| [3227-find-missing-and-repeated-values](https://github.com/job-manishkumar/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
