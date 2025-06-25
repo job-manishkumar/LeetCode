@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/job-manishkumar/LeetCode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1253-sort-the-matrix-diagonally](https://github.com/job-manishkumar/LeetCode/tree/master/1253-sort-the-matrix-diagonally) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/job-manishkumar/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/job-manishkumar/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1547-destination-city](https://github.com/job-manishkumar/LeetCode/tree/master/1547-destination-city) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0415-add-strings](https://github.com/job-manishkumar/LeetCode/tree/master/0415-add-strings) |
 | [0628-maximum-product-of-three-numbers](https://github.com/job-manishkumar/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1236-n-th-tribonacci-number](https://github.com/job-manishkumar/LeetCode/tree/master/1236-n-th-tribonacci-number) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/job-manishkumar/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1806-count-of-matches-in-tournament](https://github.com/job-manishkumar/LeetCode/tree/master/1806-count-of-matches-in-tournament) |
 | [2032-largest-odd-number-in-string](https://github.com/job-manishkumar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [3055-maximum-odd-binary-number](https://github.com/job-manishkumar/LeetCode/tree/master/3055-maximum-odd-binary-number) |
