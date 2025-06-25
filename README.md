@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/job-manishkumar/LeetCode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1253-sort-the-matrix-diagonally](https://github.com/job-manishkumar/LeetCode/tree/master/1253-sort-the-matrix-diagonally) |
+| [1293-three-consecutive-odds](https://github.com/job-manishkumar/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/job-manishkumar/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/job-manishkumar/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
