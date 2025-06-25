@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/job-manishkumar/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/job-manishkumar/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/job-manishkumar/LeetCode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+| [1927-maximum-ascending-subarray-sum](https://github.com/job-manishkumar/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/job-manishkumar/LeetCode/tree/master/2042-maximum-product-difference-between-two-pairs) |
 | [2048-build-array-from-permutation](https://github.com/job-manishkumar/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/job-manishkumar/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
