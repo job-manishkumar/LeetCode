@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/job-manishkumar/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/job-manishkumar/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/job-manishkumar/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3321-type-of-triangle](https://github.com/job-manishkumar/LeetCode/tree/master/3321-type-of-triangle) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/job-manishkumar/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/job-manishkumar/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/job-manishkumar/LeetCode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/job-manishkumar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [3055-maximum-odd-binary-number](https://github.com/job-manishkumar/LeetCode/tree/master/3055-maximum-odd-binary-number) |
 | [3227-find-missing-and-repeated-values](https://github.com/job-manishkumar/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
+| [3321-type-of-triangle](https://github.com/job-manishkumar/LeetCode/tree/master/3321-type-of-triangle) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/job-manishkumar/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Sorting
 |  |
@@ -142,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2524-largest-positive-integer-that-exists-with-its-negative](https://github.com/job-manishkumar/LeetCode/tree/master/2524-largest-positive-integer-that-exists-with-its-negative) |
 | [2756-buy-two-chocolates](https://github.com/job-manishkumar/LeetCode/tree/master/2756-buy-two-chocolates) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/job-manishkumar/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
+| [3321-type-of-triangle](https://github.com/job-manishkumar/LeetCode/tree/master/3321-type-of-triangle) |
 ## String
 |  |
 | ------- |
