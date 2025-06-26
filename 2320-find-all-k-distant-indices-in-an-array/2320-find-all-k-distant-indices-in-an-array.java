@@ -1,53 +1,57 @@
 class Solution {
 
     public List<Integer> findKDistantIndices(int[] nums, int key, int k) {
-        return getFindKDistantIndices_2(nums, key, k);
+        return getKDistantIndices_2(nums, key, k);
     }
 
-    //appraoch 1
-    //tc -> O(n2) and sc - > O(n)
-    public List<Integer> getFindKDistantIndices(int[] arr, int key, int k) {
+    //approach1
+    //tc -> O(n2) and sc -> (n)
+    public List<Integer> getKDistantIndices(int[] nums, int key, int k) {
+        //find all the indices where key is present in nums
         List<Integer> list = new ArrayList<>();
-        for (int i = 0; i < arr.length; i++) { //O{n}
-            if (key == arr[i]) {
+        for (int i = 0; i < nums.length; i++) {
+            if (key == nums[i]) {
                 list.add(i);
             }
         }
         List<Integer> ans = new ArrayList<>();
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < list.size(); j++) {
-                if (Math.abs(i - list.get(j)) <= k) {
+        for (int i = 0; i < nums.length; i++) {
+            int index = 0;
+            while (index < list.size()) {
+                if (Math.abs(i - list.get(index)) <= k) {
                     ans.add(i);
                     break;
+                } else {
+                    index++;
                 }
             }
         }
         return ans;
     }
 
-    //appraoch 2
-    //tc -> O(n2) and sc - > O(n)
-    public List<Integer> getFindKDistantIndices_2(int[] arr, int key, int k) {
+    //approach 2
+
+    public List<Integer> getKDistantIndices_2(int[] nums, int key, int k) {
+        //find all the indices where key is present in nums
         List<Integer> list = new ArrayList<>();
-        for (int i = 0; i < arr.length; i++) { //O{n}
-            if (key == arr[i]) {
+        for (int i = 0; i < nums.length; i++) {
+            if (key == nums[i]) {
                 list.add(i);
             }
         }
         List<Integer> ans = new ArrayList<>();
         int i = 0;
         int j = 0;
-        while (i < arr.length && j < list.size()) {
-            if (Math.abs(i - list.get(j)) > k) {
-                if (i - list.get(j) < 0) {
-                    i++;
-                } else {
-                    j++;
-                }
-            } else {
+        while (i < nums.length && j < list.size()) {
+            if (i - list.get(j) <= k && Math.abs(i - list.get(j)) <= k) {
                 ans.add(i);
-                i++;
+            } else if (i - list.get(j) > k) {
+                j++;
+                if (j < list.size() && Math.abs(i - list.get(j)) <= k) {
+                    ans.add(i);
+                }
             }
+            i++;
         }
         return ans;
     }
