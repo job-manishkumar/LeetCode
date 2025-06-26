@@ -24,10 +24,7 @@ class Solution {
     public int getDifferenceOfSums_2(int n, int m) {
         int sumOfN = n * (n + 1) / 2;
         int firstNo = 0;
-        if (n >= m) {
-            firstNo = m;
-        }
-        int sumOfM = ((n / m) * (2 * firstNo + ((n / m) - 1) * m)) / 2;
+        int sumOfM = ((n / m) * (2 * m + ((n / m) - 1) *  m)) / 2;
         return sumOfN - 2 * sumOfM;
     }
 }
