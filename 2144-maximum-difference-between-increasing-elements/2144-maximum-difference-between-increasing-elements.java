@@ -1,18 +1,21 @@
 class Solution {
 
     public int maximumDifference(int[] nums) {
-        return getMaxDiff(nums);
+        return getMaximumDifference(nums);
     }
 
-    public int getMaxDiff(int[] arr) {
+    //approach 1 --
+    public int getMaximumDifference(int[] arr) {
         int min = Integer.MAX_VALUE;
-        int maxDiff = -1;
-        for (int i = 1; i < arr.length; i++) {
-            min = Math.min(min, arr[i - 1]);
-            if (min != arr[i]) {
-                maxDiff = Math.max(maxDiff, arr[i] - min);
+        int max = -1;
+        for (int i = 0; i < arr.length; i++) {
+            min = Math.min(min, arr[i]);
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] > arr[i]) {
+                    max = Math.max(max, arr[j] - arr[i]);
+                }
             }
         }
-        return maxDiff;
+        return max;
     }
 }
