@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1656-count-good-triplets](https://github.com/job-manishkumar/LeetCode/tree/master/1656-count-good-triplets) |
 | [1704-special-positions-in-a-binary-matrix](https://github.com/job-manishkumar/LeetCode/tree/master/1704-special-positions-in-a-binary-matrix) |
 | [1720-crawler-log-folder](https://github.com/job-manishkumar/LeetCode/tree/master/1720-crawler-log-folder) |
+| [1781-check-if-two-string-arrays-are-equivalent](https://github.com/job-manishkumar/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/job-manishkumar/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/job-manishkumar/LeetCode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/job-manishkumar/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/job-manishkumar/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/job-manishkumar/LeetCode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1746-largest-substring-between-two-equal-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1746-largest-substring-between-two-equal-characters) |
+| [1781-check-if-two-string-arrays-are-equivalent](https://github.com/job-manishkumar/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/job-manishkumar/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/job-manishkumar/LeetCode/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/job-manishkumar/LeetCode/tree/master/1960-check-if-the-sentence-is-pangram) |
