@@ -179,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1537-maximum-score-after-splitting-a-string](https://github.com/job-manishkumar/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1547-destination-city](https://github.com/job-manishkumar/LeetCode/tree/master/1547-destination-city) |
 | [1619-path-crossing](https://github.com/job-manishkumar/LeetCode/tree/master/1619-path-crossing) |
+| [1666-make-the-string-great](https://github.com/job-manishkumar/LeetCode/tree/master/1666-make-the-string-great) |
 | [1720-crawler-log-folder](https://github.com/job-manishkumar/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/job-manishkumar/LeetCode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1746-largest-substring-between-two-equal-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1746-largest-substring-between-two-equal-characters) |
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/job-manishkumar/LeetCode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/job-manishkumar/LeetCode/tree/master/0042-trapping-rain-water) |
+| [1666-make-the-string-great](https://github.com/job-manishkumar/LeetCode/tree/master/1666-make-the-string-great) |
 | [1720-crawler-log-folder](https://github.com/job-manishkumar/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/job-manishkumar/LeetCode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/job-manishkumar/LeetCode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
