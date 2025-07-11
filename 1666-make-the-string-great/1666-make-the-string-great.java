@@ -4,6 +4,8 @@ class Solution {
         return getMakeGood(s);
     }
 
+//approach 1 using stack
+//tc -> O(n) and sc -> O(n)
     public String getMakeGood(String s) {
         char[] st = new char[s.length()];
         int top = 0;
