@@ -1,7 +1,7 @@
 class Solution {
 
     public boolean isValid(String word) {
-        return getIsValid(word);
+        return getIsValid_2(word);
     }
 
     //approach 1
@@ -30,5 +30,37 @@ class Solution {
             return true;
         }
         return false;
+    }
+
+    //approach 2 - using in build class in java
+    public boolean getIsValid_2(String word) {
+        if (word.length() < 3) {
+            return false;
+        }
+        boolean isVowel = false;
+        boolean isConsonent = false;
+        char[] ch = word.toCharArray();
+        for (int i = 0; i < ch.length; i++) {
+            if (Character.isLetter(ch[i])) {
+                if (isVowel(ch[i])) {
+                    isVowel = true;
+                } else {
+                    isConsonent = true;
+                }
+            } else if (Character.isDigit(ch[i])) {
+                continue;
+            } else {
+                return false;
+            }
+        }
+        if (isVowel & isConsonent) {
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isVowel(char ch) {
+        char c = Character.toLowerCase(ch);
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
     }
 }
