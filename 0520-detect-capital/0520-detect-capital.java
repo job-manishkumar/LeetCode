@@ -4,6 +4,8 @@ class Solution {
         return getDetectCapitalUse(word);
     }
 
+    //approach 1
+    //tc -> O(n) and sc -> O(n)
     public boolean getDetectCapitalUse(String word) {
         if (countCaptical(word) == word.length() || countCaptical(word) == 0 || (countCaptical(word) == 1 && word.charAt(0) >= 'A' && word.charAt(0) <= 'Z')) {
             return true;
