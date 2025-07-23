@@ -5,6 +5,8 @@ class Solution {
         return getRestoreIpAddresses(s);
     }
 
+    //approach 1
+    //tc -> O(3N) and sc ->O(1)
     public List<String> getRestoreIpAddresses(String s) {
         if (s.length() > 12 || s.length() < 4) {
             return list;
@@ -13,24 +15,25 @@ class Solution {
         return list;
     }
 
-    public void getCorrectIps(String s, int index, int part, String curr) {
+    public void getCorrectIps(String s, int index, int parts, String curr) {
         //base condition
-        if (index == s.length() && part == 4) {
-            list.add(curr.substring(0,curr.length()-1));
+        if (index == s.length() && parts == 4) {
+            list.add(curr.substring(0, curr.length() - 1));
             return;
         }
-        if (index + 1 <= s.length()) {
-            getCorrectIps(s, index + 1, part + 1, curr + s.substring(index, index + 1) + ".");
-        }
-        if (index + 2 <= s.length() && isValid(s.substring(index, index + 2))) {
-            getCorrectIps(s, index + 2, part + 1, curr + s.substring(index, index + 2) + ".");
-        }
-        if (index + 3 <= s.length() && isValid(s.substring(index, index + 3))) {
-            getCorrectIps(s, index + 3, part + 1, curr + s.substring(index, index + 3) + ".");
+
+        for (int i = 1; i <= 3 && index + i <= s.length(); i++) {
+            String part = s.substring(index, index + i);
+            if (isValid(part)) {
+                getCorrectIps(s, index + i, parts + 1, curr + s.substring(index, index + i) + ".");
+            }
         }
     }
 
     public boolean isValid(String str) {
+        if (str.length() == 1) {
+            return true;
+        }
         if (str.charAt(0) == '0') {
             return false;
         } else if (Integer.parseInt(str) > 255) {
