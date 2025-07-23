@@ -170,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/job-manishkumar/LeetCode/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/job-manishkumar/LeetCode/tree/master/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/job-manishkumar/LeetCode/tree/master/0067-add-binary) |
+| [0093-restore-ip-addresses](https://github.com/job-manishkumar/LeetCode/tree/master/0093-restore-ip-addresses) |
 | [0205-isomorphic-strings](https://github.com/job-manishkumar/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/job-manishkumar/LeetCode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/job-manishkumar/LeetCode/tree/master/0290-word-pattern) |
@@ -426,4 +427,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/job-manishkumar/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+## Backtracking
+|  |
+| ------- |
+| [0093-restore-ip-addresses](https://github.com/job-manishkumar/LeetCode/tree/master/0093-restore-ip-addresses) |
 <!---LeetCode Topics End-->
