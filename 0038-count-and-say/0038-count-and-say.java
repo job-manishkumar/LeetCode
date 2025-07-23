@@ -3,29 +3,32 @@ class Solution {
     public String countAndSay(int n) {
         return getCountAndSay(n);
     }
-
+//approach 1
+    //tc ->O(n*m) and sc -> O(n)
     public String getCountAndSay(int n) {
         //base condition
         if (n == 1) {
             return "1";
         }
-        String prev = getCountAndSay(n - 1);
-        return getCount(prev);
+        String say = getCountAndSay(n - 1);
+        return countSay(say);
     }
 
-    public String getCount(String str) {
+    public String countSay(String str) {
+        char[] ch = str.toCharArray();
         StringBuilder sb = new StringBuilder();
-        int count = 1;
-        int i = 0;
-        for (i = 0; i < str.length() - 1; i++) {
-            if (str.charAt(i) == str.charAt(i + 1)) {
-                count++;
+        char curr_char = ch[0];
+        int curr_count = 1;
+        for (int j = 1; j < ch.length; j++) {
+            if (ch[j] == curr_char) {
+                curr_count++;
             } else {
-                sb.append(count).append(str.charAt(i));
-                count = 1;
+                sb.append(curr_count).append(curr_char);
+                curr_char = ch[j];
+                curr_count = 1;
             }
         }
-        sb.append(count).append(str.charAt(i));
+        sb.append(curr_count).append(curr_char);
         return sb.toString();
     }
 }
