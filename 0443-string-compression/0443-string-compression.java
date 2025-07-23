@@ -4,28 +4,31 @@ class Solution {
         return getCompress(chars);
     }
 
-    //apporach 1 using two pointer
-    public int getCompress(char[] ch) {
-        char curr_char = ch[0];
+    //approach 1
+    public int getCompress(char[] chars) {
         int i = 0;
-
-        int index = 0;
-        while (i < ch.length) {
-            curr_char = ch[i];
-            int countCurr_Char = 0;
-            while (i < ch.length && ch[i] == curr_char) {
-                i++;
-                countCurr_Char++;
-            }
-            ch[index] = curr_char;
-            index++;
-            if (countCurr_Char > 1) {
-                for (char c : String.valueOf(countCurr_Char).toCharArray()) {
-                    ch[index] = c;
-                    index++;
+        char curr_char = chars[0];
+        int currcharCount = 1;
+        for (int j = 1; j < chars.length; j++) {
+            if (chars[j] == curr_char) {
+                currcharCount++;
+            } else {
+                chars[i++] = curr_char;
+                if (currcharCount > 1) {
+                    for (char ch : String.valueOf(currcharCount).toCharArray()) {
+                        chars[i++] = ch;
+                    }
                 }
+                curr_char = chars[j];
+                currcharCount = 1;
             }
         }
-        return index;
+        chars[i++] = curr_char;
+        if (currcharCount > 1) {
+            for (char ch : String.valueOf(currcharCount).toCharArray()) {
+                chars[i++] = ch;
+            }
+        }
+        return i;
     }
 }
