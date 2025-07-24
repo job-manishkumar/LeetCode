@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/job-manishkumar/LeetCode/tree/master/0443-string-compression) |
 | [0520-detect-capital](https://github.com/job-manishkumar/LeetCode/tree/master/0520-detect-capital) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/job-manishkumar/LeetCode/tree/master/0557-reverse-words-in-a-string-iii) |
+| [0889-buddy-strings](https://github.com/job-manishkumar/LeetCode/tree/master/0889-buddy-strings) |
 | [0935-orderly-queue](https://github.com/job-manishkumar/LeetCode/tree/master/0935-orderly-queue) |
 | [0981-delete-columns-to-make-sorted](https://github.com/job-manishkumar/LeetCode/tree/master/0981-delete-columns-to-make-sorted) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
@@ -280,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/job-manishkumar/LeetCode/tree/master/0389-find-the-difference) |
 | [0409-longest-palindrome](https://github.com/job-manishkumar/LeetCode/tree/master/0409-longest-palindrome) |
 | [0594-longest-harmonious-subsequence](https://github.com/job-manishkumar/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
+| [0889-buddy-strings](https://github.com/job-manishkumar/LeetCode/tree/master/0889-buddy-strings) |
 | [0940-fruit-into-baskets](https://github.com/job-manishkumar/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/job-manishkumar/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1547-destination-city](https://github.com/job-manishkumar/LeetCode/tree/master/1547-destination-city) |
