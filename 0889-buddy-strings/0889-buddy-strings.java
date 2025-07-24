@@ -37,6 +37,7 @@ class Solution {
     }
 
     //apporoach 2
+    //tc -> O(n) and sc - > O(1)
     public boolean getBuddyStrings_2(String s, String goal) {
         if (s.length() != goal.length()) {
             return false;
