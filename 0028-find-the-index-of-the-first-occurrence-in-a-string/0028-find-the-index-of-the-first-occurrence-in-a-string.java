@@ -1,10 +1,10 @@
 class Solution {
-
     public int strStr(String haystack, String needle) {
-        return findFirstOccorrence(haystack, needle);
+        return getstrStr(haystack,needle);
+    }
+     public int getstrStr(String haystack, String needle) {
+        return haystack.indexOf(needle);
     }
 
-    public int findFirstOccorrence(String str1, String str2) {
-        return str1.indexOf(str2);
-    }
+
 }
