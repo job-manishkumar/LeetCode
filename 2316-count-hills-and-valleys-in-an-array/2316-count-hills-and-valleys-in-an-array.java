@@ -1,9 +1,11 @@
 class Solution {
 
     public int countHillValley(int[] nums) {
-        return getCountHillValley(nums);
+        return getCountHillValley_2(nums);
     }
 
+    //approach 1
+    //tc -> O(n2) and sc -> O(1)
     public int getCountHillValley(int[] nums) {
         int hill = 0;
         int valley = 0;
@@ -30,5 +32,22 @@ class Solution {
             }
         }
         return hill + valley;
+    }
+
+    public int getCountHillValley_2(int[] nums) {
+        List<Integer> list = new ArrayList<>();
+        int count = 0;
+        list.add(nums[0]);
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] != nums[i - 1]) {
+                list.add(nums[i]);
+            }
+        }
+        for (int i = 1; i < list.size() - 1; i++) {
+            if (list.get(i) > list.get(i - 1) && list.get(i) > list.get(i + 1) || list.get(i) < list.get(i - 1) && list.get(i) < list.get(i + 1)) {
+                count++;
+            }
+        }
+        return count;
     }
 }
